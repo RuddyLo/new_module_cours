@@ -2,14 +2,14 @@
 # Baamtu, 2017
 # GNU Affero General Public License <http://www.gnu.org/licenses/>
 {
-    "name" : "Module Cours",
+    "name" : "Module Cours 2",
     "version" : "1.1",
     'license': 'AGPL-3',
-    "author" : "Me",
+    "author" : "My self",
     'category': 'Human Resources',
     'website': 'http://www.cous.com/',
     #'images': ['static/description/banner.jpg'],
-    'summary': 'Cours , session',
+    'summary': 'Cours , session,intsructor',
     'description': """
 Human Resources Management
 ==========================
