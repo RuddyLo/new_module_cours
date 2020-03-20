@@ -1,4 +1,4 @@
-#-*- coding:utf-8 -*-g
+#-*- coding:utf-8 -*-
 
 from openerp import models,fields, api
 class openacademy_course (models.Model) :
@@ -8,4 +8,3 @@ class openacademy_course (models.Model) :
 		('confirmed','Confirmed')],default='draft')
 	description= fields.Text(string='Description', readonly=True,states= {'draft':[('readonly',False)]})
 	responsible_id= fields.Many2one("res_partner",string="Responsable")
-	zerfsdfgst
